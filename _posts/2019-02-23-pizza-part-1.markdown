@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Pizza (Part 1)"
+date:   2019-02-23 09:53:24 -0800
+---
+### **The Trader Joe's Pie**
+
+I'm a firm believer that all problems boil down to data problems, and food is no exception.
+In this post, I detail how I attacked the problem of feeding my family, with data.
+
+#### **The Problem**
+
+Hunger is a problem for everyone, without exception. And pizza is a universally eaten and enjoyed solution to this problem. Across the world, pizza places thrive for three reasons:
+1. Pizza is delicious 
+2. Pizza is cheap
+3. Pizza can be made quickly
+
+My goal is to solve the **optimization problem** of making the most delicious *and* lowest cost pizza humanly (or robotically) possible.
+
+#### **The Recipe**
+
+In future posts, I'll detail how to make pizza from scratch. My favorite variant is the Neopolitan, however, executing this pizza is very difficult without a [proper wood or gas fired oven](https://arxiv.org/ftp/arxiv/papers/1806/1806.08790.pdf) capable of achieving  heating to  700+ Farenheit. Also, you need time; at least 5-6 hours to allow the dough to properly ferment.
+
+For now, we're short on time, so I'll run through Trader Joe's, grab all the ingredients I need and we're ready to go!
+
+#### **The Data**
+
+I buy 2 bags-o-dough and cut  3 dough balls, this yields 3, 300ish gram pizzas, which is a perfect 13-14 inch pie. The mozzarella ball and can of tomatoes will last about 5 pizzas.
+This is by no means the cheapest pizza money can buy, for that we'll be buying from Costco in bulk and making dough from scratch. However, this pizza is an order of magnitude tastier than frozen pizza (at the expense of a bit more time). Also, cheaper! Walmart brand frozen pizza starts at around $5.00 and tastes like cardboard with cheese. A dominoes carry out pizza, on sale, costs $6.50 (usually 2 for $13).
+
+| item              | per pizza | weight | price | unit weight | unit cost |
+|-------------------|-----------|--------|-------|-------------|-----------|
+| 1 mozzarella ball | 20%       | 453    | $4.99 | 91          | $1.00     |
+| 1 dough bag       | 67%       | 454    | $1.19 | 303         | $0.79     |
+| 1 can of tomatoes | 20%       | 794    | $1.59 | 159         | $0.32     |
+| 1 pepper          | 25%       | 175    | $0.69 | 44          | $0.17     |
+| Total             |           |        |       |             | **$2.28** |
+
+Notice that cheese is the most expensive ingredient, this also doesn't include the sprinkle of parmesan which is typically pretty expensive. Also, toppings may vary, but I usually add mushrooms, olives, and green peppers. In a future post, I'll share **The Costco Pie** which offers significant cost savings over The Trader Joe's Pie, however, requires a larger up front cost and storage.
+
+#### **The Result!**
+
+This pie was baked on a bakers stone, with oven set to maximum temp (500 F).
+
+![alt text](https://lh3.googleusercontent.com/LH80Dw3FDOnMkk013jtE8OpTHojLUctBUt8FENpAuJPn5pCaD92aobwtKyyd9vyU4KtKPq5jspSRIxvziINfG_I04f_GrfEaQ3CeOQb4hUO0veUXLrkG90D-E_NtGEffhxN3K7K5SDTd859HHvMm6nsuON04gqRNYrv4eg8Jk2KOFTgt2aSc3q5SSEZ6NkRmNvgO4Mc_vErURG4OlsKJphQVyXmaWJlgc_5PLjIexXYbYcRfyUG_8KmsoVbeMm-dWkQ8Ut7rIh4cNRtHoIRqNNBa6EwgvvIc1JVib5Aq_7Cg3oIWSE55pcF3369RgrltvpiFDxjFU_kRrFb_3VBx_y4uWKRUG9UvAohdJ3hUtCnlNiTxfWGyYnbZneWuFyqEB2k_nKigYw-LlVIr9y7ZHmKQx3akKJN5bc4dU1P93bIQ_AO6ZRXcNRkT8sp813D-QO0Ly6S2KJZAAqySLJTzTw9EEELodZegPsShFPnqfbKgUWzhOKEdLMMjIAHJP8FB1zjB0nGeFHAaCAKFbXEJfAjla8Ih867cS9i-RoqporQx1DzXcViCWeL1bSIwV70NTZ0iOZ1IWizM8qs4Je4zJKXizA8Qg-5SFO0prB-vdWF02rwDdX7FbEbF6oNGSbGWvu0a4qHB5YRq6-qJvSoyIAaOETuIJe9DeOtqirQfGF24hhvJZ_hW0cX9F_FV0vIFfzvpoYRGuMNdeZqkk3HGkb20_g=w881-h661-no "Pizza!")
