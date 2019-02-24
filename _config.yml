@@ -37,6 +37,8 @@ plugins:
 
 title: "SELECT ★"
 description: "All about data."
+
+google_analytics: UA-30549855-2
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
